@@ -20,8 +20,9 @@ Follow these steps to use the sheet to plan your project:
 7) Now each resource has to work on a particular milestone. Assign amount of involvement for a particular resouce for a milestone by entering values from 1 - 3. These will be automatically color coded. Generally, 1 means minimal involvement in the development of that paricular project item, 2 is moderate, and 3 is heavy involvement with zero possiblity for other work
 8) Make sure you have added the start and end dates for each milestone, otherwise nothing will be plotted on the Timeline sheet
 10) Now go to the 'settings' sheet and make sure that the cell notations correctly correspond to the the right cells on both sheets. Also check the numbers at the bottom of the list. Generally you would only want to edit the row number of the project codes (second last), and the number of team members (last) in the list
-11) Now go to your script, select 'main' from the dropdown, and press play
-12) Your timeline should be magically populated if all information had been added correctly.
+11) Make sure to update the cell B2 in the 'Team Planning' sheet with the right date you need to start your Timeline sheet to start from
+12) Now go to your script, select 'main' from the dropdown, and press play
+13) Your timeline should be magically populated if all information had been added correctly.
 
 The weightage timeline is color coded from yellow to very dark red, the latter meaning very heavily overloaded. The script works by adding up the weightages for that particular resource in the timeframe and writes in each cell. The colors are then added by conditional formatting to give a quick visual feedback.
 
